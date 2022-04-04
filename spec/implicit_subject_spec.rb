@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 RSpec.describe Hash do
   # let(:my_hash) {{}}
   # let(:subject) {Hash.new}
@@ -7,8 +9,7 @@ RSpec.describe Hash do
     expect(subject.length).to eq 1
   end
 
-  it "is isolated between examples" do
+  it 'is isolated between examples' do
     expect(subject.length).to eq 0
   end
-
 end

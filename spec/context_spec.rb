@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 RSpec.describe '#even? method' do
   context 'with even number' do
     it 'should return true' do

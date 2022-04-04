@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# test 'School' Class
 class School
   attr_accessor :name, :students
 
@@ -5,7 +8,6 @@ class School
     @name = name
     @students = []
   end
-
 end
 
 RSpec.describe School do
