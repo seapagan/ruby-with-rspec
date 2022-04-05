@@ -1,23 +1,20 @@
 {
-  "editor.formatOnSave": true, // use rubocop for formatting
+  "errorLens.enabled": false,
   "ruby.format": "rubocop",
   "ruby.lint": {
     "reek": {
-      "useBundler": true // enable reek via bundler
+      "useBundler": true
     },
-    // "reek": false,
     "rubocop": {
-      "useBundler": true // enable rubocop via bundler
+      "useBundler": true
     },
-    // "rubocop": false,
     "standard": false
   },
   "ruby.rubocop.onSave": true,
-  "ruby.useBundler": true, //run non-lint commands with bundle exec
+  "ruby.rubocop.useBundler": true,
+  "ruby.useBundler": true,
   "ruby.useLanguageServer": true,
-  "ruby.rubocop.useBundler": true, // use the internal language server (see below)
-  "[ruby]": {
-    "editor.defaultFormatter": "misogi.ruby-rubocop"
-  },
-  "errorLens.enabled": false
+  "rubyTestExplorer.testFramework": "rspec",
+  "rubyTestExplorer.minitestDirectory": "./spec/",
+  "rubyTestExplorer.logpanel": true
 }

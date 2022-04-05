@@ -6,3 +6,7 @@ Style/SymbolArray:
 
 Metrics/BlockLength:
   Max: 35
+
+Layout/LineLength:
+  Max: 100
+  AllowHeredoc: true

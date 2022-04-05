@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 RSpec.describe 'firetruck' do
   it 'starts with fire and ends with truck' do
     expect(subject).to start_with('fire').and end_with('truck')

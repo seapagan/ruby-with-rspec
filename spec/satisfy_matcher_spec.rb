@@ -9,6 +9,8 @@ RSpec.describe 'satisfy matcher' do
   end
 
   it 'can accept a custom error message' do
-    expect(subject).to satisfy('be a palindrome') { |value| value == value.reverse }
+    expect(subject).to satisfy('be a palindrome') { |value|
+                         value == value.reverse
+                       }
   end
 end
